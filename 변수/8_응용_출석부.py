@@ -7,14 +7,14 @@ print(f'학생 1 번호 : {students[0][1]}')
 print(f'학생 1 성별 : {students[0][2]}')
 print()
 
-print(f'학생 2 이름 : {students[0][0]}')
-print(f'학생 2 번호 : {students[0][1]}')
-print(f'학생 2 성별 : {students[0][2]}')
+print(f'학생 2 이름 : {students[1][0]}')
+print(f'학생 2 번호 : {students[1][1]}')
+print(f'학생 2 성별 : {students[1][2]}')
 print()
 
-print(f'학생 3 이름 : {students[0][0]}')
-print(f'학생 3 번호 : {students[0][1]}')
-print(f'학생 3 성별 : {students[0][2]}')
+print(f'학생 3 이름 : {students[2][0]}')
+print(f'학생 3 번호 : {students[2][1]}')
+print(f'학생 3 성별 : {students[2][2]}')
 print()
 # 딕셔너리를 이용한 코드는 이렇습니다.
 
