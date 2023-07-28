@@ -1,3 +1,5 @@
+# 재귀함수를 이용해 n 번째 피보나치 수를 찾아보겠습니다.
+
 def fibonacci(n):
     if(n == 0):
         return 0
