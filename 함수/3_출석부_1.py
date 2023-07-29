@@ -5,14 +5,6 @@ def add_student(attendance, student):
         return
     attendance.append(student)
 
-def remove_student(attendance, student):
-    attendance.remove(student)
-    return
-
-def sort_attendance(attendance):
-    attendance.sort()
-    return
-
 def print_attendance(attendance):
     for i in range(len(attendance)):
         print(f"학생 {i + 1} 이름 : {attendance[i]['이름']}")
@@ -23,14 +15,15 @@ def print_attendance(attendance):
         print()
     return
 
-def math_average(attendance):
+def average(attendance, subject):
     num_of_students = len(attendance)
     sum = 0
     for i in range(num_of_students):
-        sum += attendance[i]['성적']['수학']
+        sum += attendance[i]['성적'][subject]
     return sum/num_of_students
-attendance = []
 
+
+attendance = []
 #add_student라는 이름을 지어줌으로써 이 코드가 어떤 작업을 하는지 명시했습니다.
 add_student(attendance, {'이름':'유규민', '번호':17, '성별':'남자', '성적':{'수학':100, '한국사':50}}) 
 add_student(attendance, {'이름':'유규민', '번호':17, '성별':'남자', '성적':{'수학':100, '한국사':50}})
@@ -38,4 +31,4 @@ add_student(attendance, {'이름':'유내온', '번호':20, '성별':'남자', '
 add_student(attendance, {'이름':'박준혁', '번호':0, '성별':'남자', '성적':{'수학':90, '한국사':50}})
 
 print_attendance(attendance)   #이제 단 한 줄로 출석부의 내용을 출력할 수 있습니다!
-print(math_average(attendance))
+print(average(attendance, '수학')) #복잡한 연산도 한결 보기 편해졌군요!
