@@ -2,9 +2,9 @@
 
 a, b , c= input("a, b, c\n").split()
 
-int(a)
-int(b)
-int(c)
+a = int(a)
+b = int(b)
+c = int(c)
 
 if a < b and a < c:
     print(f"{a}는 가장 작습니다.")
