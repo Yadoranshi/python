@@ -1,3 +1,3 @@
-# python beginners
+# python for begginers
 
 #good luck!
