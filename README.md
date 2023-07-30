@@ -9,7 +9,7 @@
 블로그로 -> https://www.codingfactory.net/11337
 
 ## 백준 단계별 풀어보기
-# https://www.acmicpc.net/step
+### https://www.acmicpc.net/step
 단계별로 문제를 풀어보며 내 것으로 만드세요!
 
 
