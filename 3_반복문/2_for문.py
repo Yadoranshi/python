@@ -5,6 +5,17 @@ for i in range(10):
     print(i, end= " ") # end=" "를 통해 마지막에 개행문자가 아닌 공백을 출력
 print('\n\n')
 
+print("9~0 출력")
+for i in range(10):
+    print(9-i, end = ' ')
+print('\n\n')
+
+print("reversed 활용")
+for i in reversed(range(10)):
+    print(i, end = ' ')
+print('\n\n')
+
+
 l = [10, 2, -1, 601, 0]
 
 #list를 출력하기

@@ -13,7 +13,6 @@ def print_attendance(attendance):
         print(f"학생 {i + 1} 수학 성적: {attendance[i]['성적']['수학']}")
         print(f"학생 {i + 1} 한국사 성적: {attendance[i]['성적']['한국사']}")
         print()
-    return
 
 def average(attendance, subject):
     num_of_students = len(attendance)
