@@ -12,7 +12,7 @@ print(f"100 in nums?: {100 in nums}")
 print(f"range(10, 30): {list(range(10, 30))}") # [10, 30) 범위의 정수
 print(f"range(1, 100, 2): {list(range(1, 100, 5))}")    # 5가 공차
 
-print(f"range(10, 0): {list(range(100, 0))}") # 의도대로 작동하지 않는다.
+print(f"range(10, 0): {list(range(10, 0))}") # 의도대로 작동하지 않는다.
 
 print(f"range(10, 0, -1): {list(range(10, 0, -1))}") # 
 
